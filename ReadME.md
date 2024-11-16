@@ -116,5 +116,5 @@ Cette application permet de gérer des **personnes** et leurs **emplois** à tra
 ---
 
 ## **Rendu du projet :**
-- **Code source Frontend** : Lien GitHub
+- **Code source Frontend** : [https://github.com/Medhaddadi/web-atrio-test-frontend)
 - **Swagger Documentation API** : [http://localhost:8080/swagger-ui-custom.html](http://localhost:8080/swagger-ui-custom.html)
