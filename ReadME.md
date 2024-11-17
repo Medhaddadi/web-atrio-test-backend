@@ -35,8 +35,6 @@ Cette application permet de gérer des **personnes** et leurs **emplois** à tra
     - **GET /emplois** : Liste des emplois d'une personne entre deux dates.
     - **GET /entreprises/{nom}/personnes** : Liste des personnes ayant travaillé pour une entreprise donnée.
 
-  **Note importante** : Dans le fichier `application.properties`, la propriété `spring.jpa.hibernate.ddl-auto=create` permet de générer automatiquement la structure de la base de données si elle n'existe pas. **Attention**, modifiez les **identifiants et mots de passe** pour la connexion à votre propre base de données PostgreSQL.
-
 - **Frontend** : 
   - **Framework** : React
   - **Design** : Simple et minimaliste, adapté aux besoins d’un projet de petite taille.
@@ -54,7 +52,7 @@ Cette application permet de gérer des **personnes** et leurs **emplois** à tra
    spring.datasource.url=jdbc:mysql://localhost:3306/gestionDesEmplois?createDatabaseIfNotExist=true
    spring.datasource.username=VOTRE_UTILISATEUR
    spring.datasource.password=VOTRE_MOT_DE_PASSE
-   spring.jpa.hibernate.ddl-auto=create
+   spring.jpa.hibernate.ddl-auto=update
    ```
 
 ## **Lancer le backend :**
